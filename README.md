@@ -10,4 +10,4 @@
 * [微积分。讲解导数和微分、偏导数、梯度、链式法则等基本概念性质，以及怎么使用matplotlib画图；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/01.preliminaries/calculus.ipynb)
 * [自动微分(autograd)。Pytorch可以自动求导。Pytorch函数表达式是隐式构造的，求解导数时是反向累积的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/01.preliminaries/autograd.ipynb)
 #### 02.linear-networks
-* [线性回归。讲解深度学习中最简单的模型：线性模型，它又是一个单层神经网络；机器学习模型中最重要的关键要素是训练数据、损失函数、优化算法，还有模型本身；对数据进行矢量化表达可以使表达更简洁，并且运行也更快，比直接跑for循环做运算要快；根据已知的数据$\mathbf{x}$和$\mathbf{y}$求$\mathbf{w}$和$b$]，使用最小二乘法和极大似然估计这两种方法去求解是等价的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/02.linear-networks/linear-regression.ipynb)
+* [线性回归。讲解线性模型，它是一个单层神经网络；机器学习模型中最关键要素是训练数据、损失函数、优化算法，还有模型本身；使用最小二乘法和极大似然估计这两种方法去求解$\mathbf{w}$和$b$是等价的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/02.linear-networks/linear-regression.ipynb)
