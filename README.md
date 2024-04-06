@@ -11,3 +11,4 @@
 * [自动微分(autograd)。Pytorch可以自动求导。Pytorch函数表达式是隐式构造的，求解导数时是反向累积的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/01.preliminaries/autograd.ipynb)
 #### 02.linear-networks
 * [线性回归。讲解线性模型，它是一个单层神经网络；机器学习模型中最关键要素是训练数据、损失函数、优化算法，还有模型本身；使用最小二乘法和极大似然估计这两种方法去求解 w 和 b 是等价的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/02.linear-networks/linear-regression.ipynb)
+* [线性回归的源码实现。讲解线性回归的具体源码实现；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/02.linear-networks/linear-regression-scratch.ipynb)
