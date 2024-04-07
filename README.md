@@ -2,6 +2,9 @@
 ## 深度学习教程
 ### 前言
 主要是练习李沐老师教程中的源码，我在每一章中容易有疑惑的地方进行了更细致的补充，另外补充了练习题的答案。所用的深度学习框架为Pytorch。
+### TODO
+- [ ] 参加Kaggle竞赛
+- [ ] 完成教程中的概念源码学习，以及练习课后题
 ### 章节
 #### 01.preliminarier
 * [数据操作。讲解pytorch中的张量(tensor)的一些使用方法；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/01.preliminaries/ndarray.ipynb)
