@@ -5,6 +5,7 @@
 ### TODO
 - [ ] 参加Kaggle竞赛
 - [ ] 完成教程中的概念源码学习，以及练习课后题
+- [ ] 把每章中的每节进行编号
 ### 章节
 #### 01.preliminarier
 * [数据操作。讲解pytorch中的张量(tensor)的一些使用方法；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/01.preliminaries/ndarray.ipynb)
