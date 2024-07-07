@@ -29,3 +29,4 @@
 * [05.模型选择、欠拟合和过拟合。本节介绍了过拟合、欠拟合的概念以及模型选择的一些技巧；模型选择中，明确说明测试集和验证集是不同的；当训练数据稀缺时，可以选择K折交叉验证；选择合适的模型复杂度是很重要的，合适的模型复杂度可以最小化泛化损失；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/05.underfit-overfit.ipynb)
 * [06.权重衰减。权重衰减是一种正则化技术，在损失函数中加上一个平方L2范数（称为惩罚项），去惩罚权重向量的大小，防止过拟合；本节进行了weight decay的源码实现和框架实现，框架实现的优点是运行得更快，也更容易实现，权重衰减在优化器中提供；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/06.weight-decay.ipynb)
 * [07.暂退法(Dropout)。暂退法也是一种正则化技术，暂退法在训练过程中引入了噪声，迫使网络学习更加鲁棒的特征表示，同时通过调整未丢弃节点的输出，确保了网络的期望输出不受影响。这种方法有效地提高了模型的泛化能力，减少了过拟合的风险。同时本节讲解了暂退法的源码实现和框架实现；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/07.dropout.ipynb)
+* [08.前向传播、反向传播和计算图。本节通过一些基本的数学和计算图，深入探讨了反向传播的细节；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/08.backprop.ipynb)
