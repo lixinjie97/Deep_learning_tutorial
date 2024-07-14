@@ -3,7 +3,7 @@
 ### 前言
 主要是练习李沐老师教程中的源码，我在每一章中容易有疑惑的地方进行了更细致的补充，另外补充了练习题的答案。所用的深度学习框架为Pytorch。
 ### TODO
-- [ ] 参加Kaggle竞赛
+- [x] 参加Kaggle竞赛
 - [ ] 完成教程中的概念源码学习，以及练习课后题
 - [X] 把每章中的每节进行编号
 ### 章节
@@ -32,3 +32,4 @@
 * [08.前向传播、反向传播和计算图。本节通过一些基本的数学和计算图，深入探讨了反向传播的细节；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/08.backprop.ipynb)
 * [09.数值稳定性和模型初始化。初始化方案的选择在神经网络学习中起着举足轻重的作用，它对保持数值稳定性至关重要；ReLU激活函数可以缓解梯度消失的问题，加速收敛；随机初始化是保证在进行优化前打破对称性的关键，从而实现网络的表达能力；Xavier初始化表明，每一层输出的方差不受输入数量的影响，任何梯度的方差不受输出数量的影响；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/09.numerical-stability-and-init.ipynb)
 * [10.环境和分布偏移。训练集和测试集不来自同一个分布，就会有分布偏移。经验风险是训练数据的平均损失，用于近似真实风险。在实践中，我们要进行经验风险最小化；在测试时可以检测并纠正协变量偏移和标签偏移；在某些情况下，环境可能会记住自动操作并以令人惊讶的方式做出响应；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/10.environment.ipynb)
+* [11.实战Kaggle比赛：预测房价。本节讲解了实际应用和做比赛的一些技巧，如何做Kaggle比赛，首先可能需要对数据做预处理，做数据归一化，用均值替换缺失值；将类别特征可以转为使用独热向量来表示；使用K折交叉验证来选择模型并调整超参数；对数对于相对误差很有用；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/11.kaggle-house-price.ipynb)
