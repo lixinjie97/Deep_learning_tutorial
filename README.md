@@ -35,4 +35,4 @@
 * [11.实战Kaggle比赛：预测房价。本节讲解了实际应用和做比赛的一些技巧，如何做Kaggle比赛，首先可能需要对数据做预处理，做数据归一化，用均值替换缺失值；将类别特征可以转为使用独热向量来表示；使用K折交叉验证来选择模型并调整超参数；对数对于相对误差很有用；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/03.multilayer-perceptrons/11.kaggle-house-price.ipynb)
 #### 04.deep-learning-computation
 * [01.深度学习计算序言。总领接下来要讲的深度学习计算的关键组件：模型构建、参数访问与初始化、设计自定义层和块、将模型读写到磁盘，以及利用GPU实现显著的加速；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/01.index.ipynb)
-* [02.层和块。讲解模型构建的内容，一个块可以有许多层组成，一个块也可以许多块组成；块可以包含代码；块负责大量的内部处理，包括参数初始化和反向传播；层和块的顺序连接由Sequential块处理；]
+* [02.层和块。讲解模型构建的内容，一个块可以有许多层组成，一个块也可以许多块组成；块可以包含代码；块负责大量的内部处理，包括参数初始化和反向传播；层和块的顺序连接由Sequential块处理；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/02.model-construction.ipynb)
