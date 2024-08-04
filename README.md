@@ -38,3 +38,4 @@
 * [02.层和块。讲解模型构建的内容，一个块可以由许多层组成，一个块也可以由许多块组成；块可以包含代码；块负责大量的内部处理，包括参数初始化和反向传播；层和块的顺序连接由Sequential块处理；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/02.model-construction.ipynb)
 * [03.参数管理。介绍了几种访问、初始化和绑定模型参数的方法；可以自定义初始化方法；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/03.parameters.ipynb)
 * [04.延后初始化。延后初始化使框架能够自动推断参数形状，使修改模型架构变得容易，避免了一些常见错误；可以通过模型传递数据，使框架最终初始化参数；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/04.deferred-init.ipynb)
+* [05.自定义层。深度学习中可以构建自定义层，比如可以构建不带参数的层，也可以构建带参数的层；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/05.custom-layer.ipynb)
