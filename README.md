@@ -40,3 +40,4 @@
 * [04.延后初始化。延后初始化使框架能够自动推断参数形状，使修改模型架构变得容易，避免了一些常见错误；可以通过模型传递数据，使框架最终初始化参数；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/04.deferred-init.ipynb)
 * [05.自定义层。深度学习中可以构建自定义层，比如可以构建不带参数的层，也可以构建带参数的层；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/05.custom-layer.ipynb)
 * [06.读写文件。本节介绍如何保存和加载训练的模型，可以使用save和load函数实现模型保存和加载，其中保存的是模型的参数而不是整个模型，为了恢复模型，需要用代码生成架构，然后从磁盘加载参数；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/06.read-write.ipynb)
+* [07.使用GPU。本节介绍做深度学习运算时可以指定计算设备，存储在不同设备上的数据做运算会导致异常，必须复制到同一设备才可以做运算；神经网络模型也可以指定设备；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/07.use-gpu.ipynb)
