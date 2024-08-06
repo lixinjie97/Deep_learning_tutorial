@@ -43,3 +43,4 @@
 * [07.使用GPU。本节介绍做深度学习运算时可以指定计算设备，存储在不同设备上的数据做运算会导致异常，必须复制到同一设备才可以做运算；神经网络模型也可以指定设备；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/07.use-gpu.ipynb)
 #### 05.convolutional-neural-networks
 * [01.卷积神经网络序言。总领接下来要详细介绍的卷积神经网络的内容：包括卷积本身、填充(padding)和步幅(stride)的基本细节、用于在相邻区域汇聚信息的汇聚层(pooling)、在每一层中多通道(channel)的使用，以及有关现代卷积网络架构的仔细讨论。](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/01.index.ipynb)
+* [02.从全连接层到卷积。对于高维感知数据，多层感知机这种缺少结构的网络可能会变得不实用；卷积层通常比全连接层需要更少的参数，而且依旧获得高效用的模型；图像的平移不变性在处理局部图像时，可以不在乎它的位置；局部性计算相应隐藏层只需要一小部分局部图像像素；多个输入输出通道使模型在每个空间位置可以获取图像的多方面特征；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/02.why-conv.ipynb)
