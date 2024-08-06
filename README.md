@@ -41,3 +41,5 @@
 * [05.自定义层。深度学习中可以构建自定义层，比如可以构建不带参数的层，也可以构建带参数的层；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/05.custom-layer.ipynb)
 * [06.读写文件。本节介绍如何保存和加载训练的模型，可以使用save和load函数实现模型保存和加载，其中保存的是模型的参数而不是整个模型，为了恢复模型，需要用代码生成架构，然后从磁盘加载参数；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/06.read-write.ipynb)
 * [07.使用GPU。本节介绍做深度学习运算时可以指定计算设备，存储在不同设备上的数据做运算会导致异常，必须复制到同一设备才可以做运算；神经网络模型也可以指定设备；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/04.deep-learning-computation/07.use-gpu.ipynb)
+#### 05.convolutional-neural-networks
+* [01.卷积神经网络序言。总领接下来要详细介绍的卷积神经网络的内容：包括卷积本身、填充(padding)和步幅(stride)的基本细节、用于在相邻区域汇聚信息的汇聚层(pooling)、在每一层中多通道(channel)的使用，以及有关现代卷积网络架构的仔细讨论。](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/01.index.ipynb)
