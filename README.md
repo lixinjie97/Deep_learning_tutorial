@@ -44,3 +44,4 @@
 #### 05.convolutional-neural-networks
 * [01.卷积神经网络序言。总领接下来要详细介绍的卷积神经网络的内容：包括卷积本身、填充(padding)和步幅(stride)的基本细节、用于在相邻区域汇聚信息的汇聚层(pooling)、在每一层中多通道(channel)的使用，以及有关现代卷积网络架构的仔细讨论。](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/01.index.ipynb)
 * [02.从全连接层到卷积。对于高维感知数据，多层感知机这种缺少结构的网络可能会变得不实用；卷积层通常比全连接层需要更少的参数，而且依旧获得高效用的模型；图像的平移不变性在处理局部图像时，可以不在乎它的位置；局部性计算相应隐藏层只需要一小部分局部图像像素；多个输入输出通道使模型在每个空间位置可以获取图像的多方面特征；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/02.why-conv.ipynb)
+* [03.图像卷积。二维卷积层的核心计算是二维互相关运算，最简单的形式是对二维输入数据和卷积核执行互相关操作，然后添加一个偏置；可以从数据中学习卷积核的参数；学习卷积核时，无论用严格卷积运算或互相关运算，卷积层的输出不会受太大影响；当需要检测输入特征中更广区域时，我们可以构建一个更深的卷积网络；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/03.conv-layer.ipynb)
