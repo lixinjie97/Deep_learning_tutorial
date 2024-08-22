@@ -47,3 +47,4 @@
 * [03.图像卷积。二维卷积层的核心计算是二维互相关运算，最简单的形式是对二维输入数据和卷积核执行互相关操作，然后添加一个偏置；可以从数据中学习卷积核的参数；学习卷积核时，无论用严格卷积运算或互相关运算，卷积层的输出不会受太大影响；当需要检测输入特征中更广区域时，我们可以构建一个更深的卷积网络；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/03.conv-layer.ipynb)
 * [04.填充和步幅。填充可以增加输出的高度和宽度，常用来使输出与输入具有相同的高和宽；步幅可以减少输出的高和宽；填充为了做更深的卷积，步幅为了快速减小大小减少计算量；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/04.padding-and-strides.ipynb)
 * [05.多输入多输出通道。多输入多输出通道可以用来扩展卷积层的模型；当以每像素为基础应用时，1 * 1卷积层相当于全连接层；1 * 1卷积层通常用于调整网络层的通道数量和控制模型复杂性；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/05.channels.ipynb)
+* [06.汇聚层。]
