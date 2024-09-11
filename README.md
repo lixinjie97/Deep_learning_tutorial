@@ -2,7 +2,9 @@
 ## 深度学习教程
 
 <div align="center">
+
   ![counter](https://counter.seku.su/cmoe?name=Deep_learning_tutorial&theme=moebooru)
+
 </div>
 
 ### 前言
