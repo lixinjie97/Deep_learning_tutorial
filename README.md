@@ -52,6 +52,6 @@
 
 <div align="center">
 
-  ![counter](http://this.website.com/cmoe?name=Deep_learning_tutorial&theme=moebooru)
+  ![counter](https://counter.seku.su/cmoe?name=Deep_learning_tutorial&theme=moebooru)
 
 </div>
