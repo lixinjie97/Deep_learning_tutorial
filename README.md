@@ -57,3 +57,4 @@
 * [07.卷积神经网络（LeNet）。本节复现了经典的LeNet网络，和在fashion_mnist数据集上跑了一次实验，得到的测试准确率为0.803；CNN是一类使用卷积层的网络；在CNN中，组合使用卷积层、非线性激活函数和汇聚层；为了构造高性能的CNN，通常对卷积层进行排列，逐渐降低其表示的空间分辨率，同时增加通道数；在传统的CNN中，卷积块编码得到的表征在输出之前需由一个或多个全连接层进行处理；LeNet是最早发布的卷积神经网络之一；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/07.lenet.ipynb)
 #### 06.convolutional-modern
 * [01.现代卷积神经网络。总领介绍现代的卷积神经网络架构，有AlexNet、VGG、NiN、GoogLenet、ResNet、DenseNet；不同的网络架构和超参数选择，神经网络的性能会发生很大的变化；神经网络是将人类直觉和相关数学见解结合后，经过大量研究试错后的结晶；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/01.index.ipynb)
+* [02.深度卷积神经网络（AlexNet）。AlexNet的架构与LeNet相似，但使用了更多的卷积层和更多的参数来拟合大规模的ImageNet数据集；AlexNet在深度学习中是一个里程碑性质的模型，它是从浅层网络到深层网络的关键一步；大规模数据集和算力的支持使得AlexNet这种深层网络的问世称为可能；Dropout、ReLU和预处理都可以提升计算机试卷任务的性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/02.alexnet.ipynb)
