@@ -55,3 +55,5 @@
 * [05.多输入多输出通道。多输入多输出通道可以用来扩展卷积层的模型；当以每像素为基础应用时，1 * 1卷积层相当于全连接层；1 * 1卷积层通常用于调整网络层的通道数量和控制模型复杂性；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/05.channels.ipynb)
 * [06.汇聚层。池运算是确定性的，他不同于卷积层中的输入与卷积核之间的互相关运算，汇聚层不包含参数；有最大汇聚层和平均汇聚层；汇聚层的主要优点之一是减轻卷积层对位置的过度敏感；可以指定汇聚层的填充和步幅；使用最大汇聚层以及大于1的步幅，可减少空间维度（如高度和宽度）；汇聚层的输出通道数与输入通道数相同；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/06.pooling.ipynb)
 * [07.卷积神经网络（LeNet）。本节复现了经典的LeNet网络，和在fashion_mnist数据集上跑了一次实验，得到的测试准确率为0.803；CNN是一类使用卷积层的网络；在CNN中，组合使用卷积层、非线性激活函数和汇聚层；为了构造高性能的CNN，通常对卷积层进行排列，逐渐降低其表示的空间分辨率，同时增加通道数；在传统的CNN中，卷积块编码得到的表征在输出之前需由一个或多个全连接层进行处理；LeNet是最早发布的卷积神经网络之一；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/05.convolutional-neural-networks/07.lenet.ipynb)
+#### 06.convolutional-modern
+* [01.现代卷积神经网络。总领介绍现代的卷积神经网络架构，有AlexNet、VGG、NiN、GoogLenet、ResNet、DenseNet；不同的网络架构和超参数选择，神经网络的性能会发生很大的变化；神经网络是将人类直觉和相关数学见解结合后，经过大量研究试错后的结晶；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/01.index.ipynb)
