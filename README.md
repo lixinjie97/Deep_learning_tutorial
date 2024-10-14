@@ -58,3 +58,4 @@
 #### 06.convolutional-modern
 * [01.现代卷积神经网络。总领介绍现代的卷积神经网络架构，有AlexNet、VGG、NiN、GoogLenet、ResNet、DenseNet；不同的网络架构和超参数选择，神经网络的性能会发生很大的变化；神经网络是将人类直觉和相关数学见解结合后，经过大量研究试错后的结晶；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/01.index.ipynb)
 * [02.深度卷积神经网络（AlexNet）。AlexNet的架构与LeNet相似，但使用了更多的卷积层和更多的参数来拟合大规模的ImageNet数据集；AlexNet在深度学习中是一个里程碑性质的模型，它是从浅层网络到深层网络的关键一步；大规模数据集和算力的支持使得AlexNet这种深层网络的问世成为可能；Dropout、ReLU和预处理都可以提升计算机视觉任务的性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/02.alexnet.ipynb)
+* [03.使用块的网络（VGG）。VGG-11使用可复用的卷积块构造网络，不同的VGG模型可通过每个块中卷积层数量和输出通道数量的差异来定义；块的使用导致网络定义的非常简洁，使用块可以有效地设计复杂的网络；在VGG论文中，Simonyan和Ziserman尝试了各种架构，特别是他们发现深层且窄的卷积(即3*3)比较浅层且宽的卷积更有效；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/03.vgg.ipynb)
