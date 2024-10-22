@@ -70,4 +70,4 @@ numpy==1.22
 * [08.稠密连接网络（DenseNet）。在跨层连接上，不同于ResNet中将输入与输出相加，稠密连接网络（DenseNet）在通道维上连接输入与输出；DenseNet的主要构建模块是稠密块和过渡层；在构建DenseNet时，我们需要通过添加过渡层来控制网络的维数，从而再次减少通道的数量；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/06.convolutional-modern/08.densenet.ipynb)
 #### 07.computational-performance
 * [01.计算性能。本章主要讨论影响计算性能的主要因素：命令式编程、符号编程、异步计算、自动并行和多GPU计算，学习本章可以进一步提高之前实现模型的计算性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/01.index.ipynb)
-* [02.编译器和解释器。Python是一种解释型语言；命令式编程使得新模型的设计变得容易，因为可以依据控制流编写代码，并拥有相对成熟的Python的软件生态；符号式编程要求我们先定义并且编译程序，然后在执行程序，其好处是提高了计算性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/02.hybridize.ipynb)
+* [02.编译器和解释器。Python是一种解释型语言；命令式编程使得新模型的设计变得容易，因为可以依据控制流编写代码，并拥有相对成熟的Python软件生态；符号式编程要求我们先定义并且编译程序，然后在执行程序，其好处是提高了计算性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/02.hybridize.ipynb)
