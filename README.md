@@ -71,3 +71,4 @@ numpy==1.22
 #### 07.computational-performance
 * [01.计算性能。本章主要讨论影响计算性能的主要因素：命令式编程、符号编程、异步计算、自动并行和多GPU计算，学习本章可以进一步提高之前实现模型的计算性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/01.index.ipynb)
 * [02.编译器和解释器。Python是一种解释型语言；命令式编程使得新模型的设计变得容易，因为可以依据控制流编写代码，并拥有相对成熟的Python软件生态；符号式编程要求我们先定义并且编译程序，然后在执行程序，其好处是提高了计算性能；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/02.hybridize.ipynb)
+* [03.深度学框架可以将Python前端的控制与后端的执行耦合，使得命令可以快速地异步插入后端、并行执行；异步产生了一个相当灵活的前端，但请注意：过度填充任务队列可能会导致内存消耗过多。建议对每个小批量进行同步，以保持前端和后端的大致同步；芯片供应商提供了复杂的性能分析工具，已获得对深度学习效率更精确的洞察；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/03.async-computation.ipynb)
