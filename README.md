@@ -79,3 +79,4 @@ numpy==1.22
 * [08.参数服务器。同步需要高度适应特定的网络基础设施和服务器内的连接，这种适应会严重影响同步所需的时间；环同步对于p3和DGX-2服务器是最佳的，而对于其他服务器则未必；当添加多个参数服务器以增加带宽时，分层同步策略可以工作的很好；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/07.computational-performance/08.parameterserver.ipynb)
 #### 08.computer-vision
 * [01.计算机视觉。本章主要讨论深度学习的应用领域之一：计算机视觉；开头，介绍两种可以改进模型泛化的方法，即图像增广和微调；然后介绍目标检测、语义分割、样式迁移的知识；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/01.index.ipynb)
+* [02.图像增广。图像增广基于现有的训练数据生成随机图像，来提高模型泛化能力；为了在预测过程中得到确切的结果，我们通常只对训练样本进行图像增广，而在预测过程中不使用带随机操作的图像增广；深度学习框架提供了许多不同的图像增广的方法，这些方法可以被同时应用；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/02.image-augmentation.ipynb)
