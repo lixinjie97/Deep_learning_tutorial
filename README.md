@@ -80,3 +80,4 @@ numpy==1.22
 #### 08.computer-vision
 * [01.计算机视觉。本章主要讨论深度学习的应用领域之一：计算机视觉；开头，介绍两种可以改进模型泛化的方法，即图像增广和微调；然后介绍目标检测、语义分割、样式迁移的知识；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/01.index.ipynb)
 * [02.图像增广。图像增广基于现有的训练数据生成随机图像，来提高模型泛化能力；为了在预测过程中得到确切的结果，我们通常只对训练样本进行图像增广，而在预测过程中不使用带随机操作的图像增广；深度学习框架提供了许多不同的图像增广的方法，这些方法可以被同时应用；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/02.image-augmentation.ipynb)
+* [03.微调。从头训练一个模型需要更多的精力和和时间，所以就有了微调，微调是算法工程师工作过程中用到最多的技术手段，它不仅保证了结果质量还提高了效率；迁移学习将从源数据集中学到的知识迁移到目标数据集，微调是迁移学习的常见技巧；除输出层外，目标模型从源模型中复制所有模型设计及其参数，并根据目标数据集对这些参数进行微调。但是目标模型的输出层需要从头开始训练；通常，微调参数使用较小的学习率，而从头开始训练输出层可以使用更大的学习率；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/03.fine-tuning.ipynb)
