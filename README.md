@@ -112,4 +112,5 @@ numpy==1.22
   * [02.图像增广。图像增广基于现有的训练数据生成随机图像，来提高模型泛化能力；为了在预测过程中得到确切的结果，我们通常只对训练样本进行图像增广，而在预测过程中不使用带随机操作的图像增广；深度学习框架提供了许多不同的图像增广的方法，这些方法可以被同时应用；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/02.image-augmentation.ipynb)
   * [03.微调。从头训练一个模型需要更多的精力和和时间，所以就有了微调，微调是算法工程师工作过程中用到最多的技术手段，它不仅保证了结果质量还提高了效率；迁移学习将从源数据集中学到的知识迁移到目标数据集，微调是迁移学习的常见技巧；除输出层外，目标模型从源模型中复制所有模型设计及其参数，并根据目标数据集对这些参数进行微调。但是目标模型的输出层需要从头开始训练；通常，微调参数使用较小的学习率，而从头开始训练输出层可以使用更大的学习率；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/03.fine-tuning.ipynb)
   * [04.目标检测和边界框。目标检测不仅可以识别图像中所有感兴趣的物体，还可以识别它们的位置，该位置通常由矩形边界框表示；我们可以在两种常用的边界框表示（中间，宽度，高度）和（左上，右下）坐标之间进行转换；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/04.bounding-box.ipynb)
+  * [05.锚框。以图像的每个像素为中心生成不同形状的锚框，考虑计算复杂度，取每个像素n+m-1个锚框；交并比（IoU）也被称为杰卡德系数，用于衡量两个边界框的相似性，它是相交面积与相并面积的比率；在训练集中，我们需要给每个锚框两种类型的标签，一个是锚框中目标检测的类别，另一个是锚框真实相对于边界框的偏移量；预测期间可以使用非极大值抑制（NMS）来移除类似的预测边界框，从而简化输出；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/05.anchor.ipynb)
 </details>
