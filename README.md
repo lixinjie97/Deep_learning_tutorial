@@ -114,4 +114,5 @@ numpy==1.22
   * [04.目标检测和边界框。目标检测不仅可以识别图像中所有感兴趣的物体，还可以识别它们的位置，该位置通常由矩形边界框表示；我们可以在两种常用的边界框表示（中间，宽度，高度）和（左上，右下）坐标之间进行转换；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/04.bounding-box.ipynb)
   * [05.锚框。以图像的每个像素为中心生成不同形状的锚框，考虑计算复杂度，取每个像素n+m-1个锚框；交并比（IoU）也被称为杰卡德系数，用于衡量两个边界框的相似性，它是相交面积与相并面积的比率；在训练集中，我们需要给每个锚框两种类型的标签，一个是锚框中目标检测的类别，另一个是锚框真实相对于边界框的偏移量；预测期间可以使用非极大值抑制（NMS）来移除类似的预测边界框，从而简化输出；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/05.anchor.ipynb)
   * [06.多尺度目标检测。为了减少图像上锚框数量，我们可以在输入图像中均匀采样一小部分像素，并以它们为中心生成锚框；在多个尺度下，我们可以生成不同尺寸的锚框来检测不同尺寸的目标；通过定义特征图的形状，我们可以决定任何图像上均匀采样的锚框的中心；我们使用输入图像在某个感受野区域内的信息，来预测输入图像上与该区域位置相近的锚框类别和偏移量；我们可以通过深入学习，在多个层次上的图像分层表示进行多尺度目标检测；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/06.multiscale-object-detection.ipynb)
+  * [07.目标检测数据集。收集香蕉检测数据集可用于演示目标检测模型；目标检测的数据加载与图像分类的数据加载类似，但是，在目标检测中，标签还包含真实边界框的信息，图像分类则没有；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/07.object-detection-dataset.ipynb)
 </details>
