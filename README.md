@@ -117,3 +117,6 @@ numpy==1.22
   * [07.目标检测数据集。收集香蕉检测数据集可用于演示目标检测模型；目标检测的数据加载与图像分类的数据加载类似，但是，在目标检测中，标签还包含真实边界框的信息，图像分类则没有；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/07.object-detection-dataset.ipynb)
   * [08.单发多框检测（SSD）。单发多框检测是一种多尺度目标检测模型，ssd中接近顶部的多尺度特征图较小，但具有较大的感受野，它们适合检测较少但较大的物体；ssd基于基础网络块和各个多尺度特征块，单发多框检测生成不同数量和不同大小的锚框，并通过预测这些锚框的类别和偏移量检测不同大小的目标；在训练单发多框检测模型时，损失函数是根据锚框的类别和偏移量的预测及标注值计算得出的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/08.ssd.ipynb)
 </details>
+
+### Acknowledgment
+[d2l](https://zh.d2l.ai/)
