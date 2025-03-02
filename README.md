@@ -118,7 +118,7 @@ numpy==1.22
   * [08.单发多框检测（SSD）。单发多框检测是一种多尺度目标检测模型，ssd中接近顶部的多尺度特征图较小，但具有较大的感受野，它们适合检测较少但较大的物体；ssd基于基础网络块和各个多尺度特征块，单发多框检测生成不同数量和不同大小的锚框，并通过预测这些锚框的类别和偏移量检测不同大小的目标；在训练单发多框检测模型时，损失函数是根据锚框的类别和偏移量的预测及标注值计算得出的；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/08.ssd.ipynb)
   * [09.区域卷积神经网络（R-CNN）系列。R-CNN对图像选取若干提议区域，使用卷积神经网络对每个提议区域执行前向传播以抽取其特征，然后再用这些特征来预测提议区域的类别和边界框；Fast R-CNN对R-CNN的一个主要改进：只对整个图像做卷积神经网络的前向传播。它还引入了兴趣区域汇聚层，从而为具有不同形状的兴趣区域抽取相同形状的特征；Faster R-CNN将Fast R-CNN中使用的选择性搜索替换为参与训练的区域提议网络，这样后者可以在减少提议区域数量的情况下仍保证目标检测的精度；Mask R-CNN在Faster R-CNN的基础上引入了一个全卷积网络，从而借助目标的像素级位置进一步提升目标检测的精度；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/09.rcnn.ipynb)
   * [10.语义分割和数据集。语义分割通过将图像划分为属于不同语义类别的区域，来识别并理解图像中像素级别的内容；语义分割的一个重要数据集叫做Pascal VOC2012；由于语义分割的输入图像和标签在像素上一一对应，输入图像会被随机裁剪为固定尺寸而不是缩放；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/10.semantic-segmentation-and-dataset.ipynb)
-  * [11.转置卷积。转置卷积的作用是将输入张量的特征图进行上采样（即扩大尺寸），通常用于生成模型或语义分割等任务中；与通过卷积核减少输入元素的常规卷积相反，转置卷积通过卷积核广播输入元素，从而产生形状大于输入的输出；如果我们将f(X)输入卷积层f来获得输出Y=f(X)并创造一个与f有相同的超参数、但输出通道数是f(X)中通道数的转置卷积层g，那么g(Y)的形状将与f(X)相同；我们可以使用矩阵乘法来实现卷积；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/11.transposed-conv.ipynb)
+  * [11.转置卷积。转置卷积的作用是将输入张量的特征图进行上采样（即扩大尺寸），通常用于生成模型或语义分割等任务中；与通过卷积核减少输入元素的常规卷积相反，转置卷积通过卷积核广播输入元素，从而产生形状大于输入的输出；如果我们将f(X)输入卷积层f来获得输出Y=f(X)并创造一个与f有相同的超参数、但输出通道数是X中通道数的转置卷积层g，那么g(Y)的形状将与X相同；我们可以使用矩阵乘法来实现卷积；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/11.transposed-conv.ipynb)
 </details>
 
 ### Acknowledgment
