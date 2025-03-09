@@ -120,6 +120,7 @@ numpy==1.22
   * [10.语义分割和数据集。语义分割通过将图像划分为属于不同语义类别的区域，来识别并理解图像中像素级别的内容；语义分割的一个重要数据集叫做Pascal VOC2012；由于语义分割的输入图像和标签在像素上一一对应，输入图像会被随机裁剪为固定尺寸而不是缩放；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/10.semantic-segmentation-and-dataset.ipynb)
   * [11.转置卷积。转置卷积的作用是将输入张量的特征图进行上采样（即扩大尺寸），通常用于生成模型或语义分割等任务中；与通过卷积核减少输入元素的常规卷积相反，转置卷积通过卷积核广播输入元素，从而产生形状大于输入的输出；如果我们将f(X)输入卷积层f来获得输出Y=f(X)并创造一个与f有相同的超参数、但输出通道数是X中通道数的转置卷积层g，那么g(Y)的形状将与X相同；我们可以使用矩阵乘法来实现卷积；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/11.transposed-conv.ipynb)
   * [12.全卷积网络。全卷积网络先使用卷积神经网络抽取图像特征，然后通过1*1卷积层将通道数变换为类别个数，最后通过转置卷积层将特征图的高和宽变换为输入图像尺寸；在全卷积网络中，我们可以将转置卷积层初始化为双线性插值的上采样；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/12.fcn.ipynb)
+  * [13.风格迁移。风格迁移的常用的损失函数由3部分组成：content_loss内容损失使合成图像与内容图像在内容特征上接近；style_loss风格损失令合成图像与风格图像在风格特征上接近；tv_loss全变分损失则有助于减少合成图像中的噪点；我们可以通过预训练的卷积神经网络来抽取图像的特征，并通过最小化损失函数来不断更新合成图像来作为模型参数；我们使用格拉姆矩阵表达风格层输出的风格；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/13.neural-style.ipynb)
 </details>
 
 ### Acknowledgment
