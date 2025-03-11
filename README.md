@@ -122,6 +122,7 @@ numpy==1.22
   * [12.全卷积网络。全卷积网络先使用卷积神经网络抽取图像特征，然后通过1*1卷积层将通道数变换为类别个数，最后通过转置卷积层将特征图的高和宽变换为输入图像尺寸；在全卷积网络中，我们可以将转置卷积层初始化为双线性插值的上采样；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/12.fcn.ipynb)
   * [13.风格迁移。风格迁移的常用的损失函数由3部分组成：content_loss内容损失使合成图像与内容图像在内容特征上接近；style_loss风格损失令合成图像与风格图像在风格特征上接近；tv_loss全变分损失则有助于减少合成图像中的噪点；我们可以通过预训练的卷积神经网络来抽取图像的特征，并通过最小化损失函数来不断更新合成图像来作为模型参数；我们使用格拉姆矩阵表达风格层输出的风格；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/13.neural-style.ipynb)
   * [14.实战 Kaggle 比赛：图像分类(CIFAR-10)。将包含原始图像文件的数据集组织为所需格式后，我们可以读取它们；我们可以在图像分类竞赛中使用卷积神经网络和图像增广；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/14.kaggle-cifar10.ipynb)
+  * [15.实战 Kaggle 比赛：狗的品种(ImageNet Dogs)。ImageNet数据集中的图像比CIFAR-10图像尺寸大，我们可能会修改不同数据集上任务的图像增广操作；要对ImageNet数据集的子集进行分类，我们可以利用完整ImageNet数据集上的预训练模型来提取特征并仅训练小型自定义输出网络，这将减少时间和节省内存空间；]()
 </details>
 
 ### Acknowledgment
