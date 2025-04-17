@@ -125,5 +125,9 @@ numpy==1.22
   * [15.实战 Kaggle 比赛：狗的品种(ImageNet Dogs)。ImageNet数据集中的图像比CIFAR-10图像尺寸大，我们可能会修改不同数据集上任务的图像增广操作；要对ImageNet数据集的子集进行分类，我们可以利用完整ImageNet数据集上的预训练模型来提取特征并仅训练小型自定义输出网络，这将减少时间和节省内存空间；](https://github.com/lixinjie97/Deep_learning_tutorial/blob/main/08.computer-vision/15.kaggle-dog.ipynb)
 </details>
 
+### 补充
+
+深度学习图像部分的内容就到此结束，对于只做图像算法的我而言学到这里就可以了；
+
 ### Acknowledgment
 [d2l](https://zh.d2l.ai/)
